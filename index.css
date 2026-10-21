@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(15, 15, 15);
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    color: rgb(220, 220, 220);
+}
+h2{
+    margin: 0;
+    line-height: 1.3;
+}
+
+.main-header{
+    width: 90%;
+    max-width: 550px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(25, 25, 25);
+    border-radius: 30px;
+    border-color: rgb(95, 108, 149);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-links{
+    padding: 0 15px;
+    color: rgb(220, 220, 220);
+    text-decoration: none;
+}
+
+.navigation-links:hover{
+    color: white;
+}
+
+.language-selector{
+    display: flex;
+    align-items: center;
+    color: rgb(220, 220, 220);
+    margin-left: auto;
+}
+.language-selector button{
+    padding: 0 15px;
+    background: none;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.language-selector button.active{
+    color: white;
+    font-weight: 600;
+}
+
+.language-selector button:hover{
+    color: white;
+}
+
+.language-selector span{
+    color: inherit;
+}
+
+.navigation-links,
+.language-selector button{
+    transition: color .2s ease;
+}
+
+.intro{
+    width: 90%;
+    max-width: 675px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(25, 25, 25);
+    border-radius: 10px;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.profile-name,
+.profile-title{
+    margin: 0;
+}
+.profile-title{
+    font-size: 20px;
+}
+
+.profile-picture{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.profile-description{
+    font-size: 16px;
+}
+
+.skills-section, .projects-section{
+    width: 90%;
+    max-width: 675px;
+    background-color: rgb(25, 25, 25);
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skills-title{
+    margin-bottom: 20px;
+}
+
+.skills-container, .projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 40px;
+    margin-bottom: 15px;
+}
+
+.skills-title, .projects-title{
+    text-align: center;
+}
+
+.skill-icon{
+    height: 50px;
+    width: 50px;
+}
+
+i.devicon-github-original{
+    font-size: 50px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-name{
+    margin: 5px 0 0 0;
+}
+
